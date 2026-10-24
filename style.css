@@ -1,0 +1,54 @@
+
+/* ページ全体 */
+body {
+    font-family: "Arial", "Hiragino Kaku Gothic ProN", sans-serif;
+    background-color: #e8edf2;
+    color: #333333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* 見出し */
+h1 {
+    color: #233c53;
+    font-size: 32px;
+}
+
+h2 {
+    color: #233c53;
+    font-size: 24px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 8px;
+}
+
+/* 記事の表示 */
+article {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* リンク */
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* スマホ表示 */
+@media (max-width: 600px) {
+    body {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    article {
+        padding: 20px;
+    }
+}
